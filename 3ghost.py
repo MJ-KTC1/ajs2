@@ -11,46 +11,46 @@ from googletrans import Translator
 import youtube_dl
 #ANTIJS_V2
 
-#cl = LineClient()
+cl = LineClient()
 cl = LineClient('email','sandi')
-#cl = LineClient(authToken='TOKEN')
+cl = LineClient(authToken='TOKEN')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 ki = LineClient('email','sandi')
-#ki = LineClient(authToken='TOKEN')
+ki = LineClient(authToken='TOKEN')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 kk = LineClient('email','sandi')
-#kk = LineClient(authToken='TOKEN')
+kk = LineClient(authToken='TOKEN')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 
 kc = LineClient(authToken='TOKEN')
-#kc.log("Auth Token : " + str(kc.authToken))
+kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 kg = LineClient('email','sandi')
-#kg = LineClient(authToken='TOKEN')
+kg = LineClient(authToken='TOKEN')
 kg.log("Auth Token : " + str(kg.authToken))
 channel4 = LineChannel(kg)
 kg.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
 kj = LineClient('email','sandi')
-#kj = LineClient(authToken='TOKEN')
+kj = LineClient(authToken='TOKEN')
 kj.log("Auth Token : " + str(kj.authToken))
 channel5 = LineChannel(kj)
 kj.log("Channel Access Token : " + str(channel5.channelAccessToken))
 
 
 sw = LineClient('email','sandi')
-#sw = LineClient(authToken='TOKEN')
+sw = LineClient(authToken='TOKEN')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
